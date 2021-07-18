@@ -1,0 +1,27 @@
+[
+    {
+        "icon": "placeholder",
+        "label": "Home",
+        "path": "#"
+    },
+    {
+        "icon": "placeholder",
+        "label": "My Network",
+        "path": "#"
+    },
+    {
+        "icon": "placeholder",
+        "label": "Jobs",
+        "path": "#"
+    },
+    {
+        "icon": "placeholder",
+        "label": "Messaging",
+        "path": "#"
+    },
+    {
+        "icon": "placeholder",
+        "label": "Notifications",
+        "path": "#"
+    }
+]
