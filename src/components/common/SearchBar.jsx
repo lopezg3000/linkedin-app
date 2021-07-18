@@ -2,7 +2,7 @@ import React from 'react';
 
 const SearchBar = () => {
     return (
-        <form className="d-flex form-container">
+        <form className="d-flex form-container 	d-md-none d-lg-block">
             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
         </form>
     );
