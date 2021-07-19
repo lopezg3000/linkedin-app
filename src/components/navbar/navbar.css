@@ -1,5 +1,10 @@
 .navbar {
     background: #fff;
+    /* margin-left: 3rem; */
+}
+
+.logo-container {
+    margin-left: 4.5rem !important;
 }
 
 .ms-10 {
