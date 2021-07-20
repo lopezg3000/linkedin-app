@@ -2,8 +2,8 @@ import React from 'react';
 
 const cardVertical = ({ imagePath, cardTitle, cardText, breadCrumbItemOne, breadCrumbItemTwo, cardFooter }) => {
     return (
-        <div className="card" style={{ width: '30rem' }}>
-            <img src={imagePath} className="card-img-top rounded-circle img-thumbnail w-50" alt="..." />
+        <div className="card border-0">
+            <img src={imagePath} className="card-img-top rounded-circle img-thumbnail" alt="..." style={{ width: '35%' }} />
             <div className="card-body">
                 <h5 className="card-title">{cardTitle}</h5>
                 <p className="card-text">{cardText}</p>

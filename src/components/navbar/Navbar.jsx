@@ -9,7 +9,7 @@ import './navbar.css';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light px-4">
+        <nav className="navbar navbar-expand-lg navbar-light px-4 mb-5 position-sticky top-0" style={{ zIndex: '2' }}>
             <div className='container mx-auto'>
                 <Logo />
                 <SearchBar />
