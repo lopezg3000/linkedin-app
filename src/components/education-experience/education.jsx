@@ -1,5 +1,7 @@
 import React from 'react';
 import CardHorizontal from '../common/CardHorizontal';
+import WestburyThumbnail from '../../assets/westburyThumbnail.png'
+import DigitalcraftsThumbnail from '../../assets/digitalcraftsThumbnail.png'
 
 const Education = () => {
     return (
@@ -13,7 +15,7 @@ const Education = () => {
             <div className='row w-75 bg-white border border-top-0 border-1'>
                 <div className="col-9">
                     <CardHorizontal
-                        imagePath='https://picsum.photos/80/'
+                        imagePath={DigitalcraftsThumbnail}
                         cardTitle='Digitalcrafts'
                         firstLightCardText='2021 - 2021'
                     />
@@ -23,7 +25,7 @@ const Education = () => {
             <div className='row w-75 bg-white border border-top-0 border-1'>
                 <div className="col-9">
                     <CardHorizontal
-                        imagePath='https://picsum.photos/80/'
+                        imagePath={WestburyThumbnail}
                         cardTitle='Houston Bapstist University'
                         darkCardText="Bachelor's degree, Biochemistry/Molecular Biology"
                         firstLightCardText='2012 - 2016'

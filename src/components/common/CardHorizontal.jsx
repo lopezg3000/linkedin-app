@@ -5,7 +5,7 @@ const Card = ({ imagePath, cardTitle, darkCardText, firstLightCardText, secondLi
         <div className="card border-0 ps-3 pt-2">
             <div className="row g-0">
                 <div className="col-md-2">
-                    <img src={imagePath} className="img-fluid rounded-start" alt="..." />
+                    <img src={imagePath} className="img-fluid rounded-start" alt="..." style={{ width: '80px', height: '80px' }} />
                 </div>
                 <div className="col-md-10">
                     <div className="card-body pb">
