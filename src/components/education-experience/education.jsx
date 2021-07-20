@@ -1,6 +1,6 @@
 import React from 'react';
 import CardHorizontal from '../common/CardHorizontal';
-import WestburyThumbnail from '../../assets/westburyThumbnail.png'
+import HoustonBaptistUniversityThumbnail from '../../assets/houstonBaptistUniversityThumbnail.png'
 import DigitalcraftsThumbnail from '../../assets/digitalcraftsThumbnail.png'
 
 const Education = () => {
@@ -25,7 +25,7 @@ const Education = () => {
             <div className='row w-75 bg-white border border-top-0 border-1'>
                 <div className="col-9">
                     <CardHorizontal
-                        imagePath={WestburyThumbnail}
+                        imagePath={HoustonBaptistUniversityThumbnail}
                         cardTitle='Houston Bapstist University'
                         darkCardText="Bachelor's degree, Biochemistry/Molecular Biology"
                         firstLightCardText='2012 - 2016'

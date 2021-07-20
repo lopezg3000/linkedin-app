@@ -1,6 +1,6 @@
 import React from 'react';
 import CardHorizontal from '../common/CardHorizontal';
-import HoustonBaptistUniversityThumbnail from '../../assets/houstonBaptistUniversityThumbnail.png'
+import WestburyThumbnail from '../../assets/westburyThumbnail.png'
 
 const Experience = () => {
     return (
@@ -14,7 +14,7 @@ const Experience = () => {
             <div className='row w-75 bg-white border border-top-0 border-1 pb-3'>
                 <div className="col-9">
                     <CardHorizontal
-                        imagePath={HoustonBaptistUniversityThumbnail}
+                        imagePath={WestburyThumbnail}
                         cardTitle='Teacher'
                         darkCardText='Westbury High School'
                         firstLightCardText='Aug 2018 - Present'
