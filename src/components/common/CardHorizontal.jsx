@@ -11,7 +11,8 @@ const Card = ({ imagePath, cardTitle, darkCardText, firstLightCardText, secondLi
                     <div className="card-body pb">
                         <h6 className="card-title">{cardTitle}</h6>
                         <p className="card-text mb-1">{darkCardText}</p>
-                        <p className="card-text"><small className="text-muted">{firstLightCardText}</small></p>
+                        <p className="card-text mb-1"><small className="text-muted">{firstLightCardText}</small></p>
+                        <p className="card-text mb-1"><small className="text-muted">{secondLightCardText}</small></p>
                     </div>
                 </div>
             </div>

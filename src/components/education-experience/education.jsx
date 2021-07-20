@@ -4,7 +4,7 @@ import CardHorizontal from '../common/CardHorizontal';
 const Education = () => {
     return (
         <React.Fragment>
-            <div className='row w-75 mt-3 bg-white border border-bottom-0 border-1'>
+            <div className='row w-75 bg-white border border-bottom-0 border-1'>
                 <div className='col'>
                     <h5 className='px-3 pt-3'>Education</h5>
                 </div>
