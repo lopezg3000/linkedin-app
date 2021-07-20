@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import Intro from './components/intro/Intro';
 import About from './components/about/about';
 import Featured from './components/featured/Featured';
+import Education from './components/education-experience/education';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Intro />
         <About />
         <Featured />
+        <Education />
       </div>
       <footer style={{ background: '#f3f2ef' }}>Footer</footer>
     </div>
