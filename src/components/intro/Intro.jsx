@@ -6,10 +6,10 @@ import TrainingSummary from '../common/TrainingSummary';
 const Intro = () => {
     return (
         <React.Fragment>
-            <div className="row border w-75 rounded-top" style={{ width: '50%', height: '200px', background: 'linear-gradient(to right, #00b4db, #0083b0)' }}>
+            <div className="row border border-bottom-0 border-1 w-75 rounded-top" style={{ width: '50%', height: '200px', background: 'linear-gradient(to right, #00b4db, #0083b0)' }}>
 
             </div>
-            <div className="row w-75 bg-white">
+            <div className="row border border-top-0 border-1 w-75 bg-white">
                 <div className="col-7 p-3">
                     <ProfileIntro
                         imagePath='https://picsum.photos/200'
