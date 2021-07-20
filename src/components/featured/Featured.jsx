@@ -3,7 +3,7 @@ import FeaturedItem from '../common/FeaturedItem';
 
 const Featured = () => {
     return (
-        <React.Fragment>
+        <div className='featured-container'>
             <div className='row w-75 mt-3 bg-white border border-bottom-0 border-1'>
                 <div className='col-6 '>
                     <h5 className='card-title px-3 pt-3'>Featured</h5>
@@ -27,7 +27,7 @@ const Featured = () => {
                     />
                 </div>
             </div>
-        </React.Fragment>
+        </div>
     );
 }
 

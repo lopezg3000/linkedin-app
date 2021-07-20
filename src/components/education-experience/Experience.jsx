@@ -3,7 +3,7 @@ import CardHorizontal from '../common/CardHorizontal';
 
 const Experience = () => {
     return (
-        <React.Fragment>
+        <div className='experience-container'>
             <div className='row w-75 mt-3 bg-white border border-bottom-0 border-1'>
                 <div className='col'>
                     <h5 className='px-3 pt-3'>Experience</h5>
@@ -21,7 +21,7 @@ const Experience = () => {
                     />
                 </div>
             </div>
-        </React.Fragment>
+        </div>
     );
 }
 
